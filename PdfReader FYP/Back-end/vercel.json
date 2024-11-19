@@ -2,16 +2,17 @@
     "version": 2,
     "builds": [
         { 
-            "src": "./index.js", 
+            "src": "PdfReader_FYP/Back-end/index.js", 
             "use": "@vercel/node" 
         }
     ],
     "routes": [
         { 
             "src": "/(.*)", 
-            "dest": "/", 
+            "dest": "PdfReader_FYP/Back-end/index.js", 
             "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"] 
         }
     ]
 }
+
 
